@@ -1,0 +1,97 @@
+@font-face {
+    src: url(fonts/Touche\ W03\ Bold.ttf);
+    font-family: "Touche Bold";
+ } 
+
+@font-face {
+    src: url(fonts/Touche\ W03\ Regular.ttf);
+    font-family: "Touche Regular";
+}
+.lat {
+   color: rgb(254, 150, 2);
+   width: 120px;
+   height: 30px;
+   border: 1px solid rgb(254, 150, 2);;
+   margin: 0 auto;
+   padding-top: 5px;
+   text-align: center;
+   border-radius: 2px;
+   display: block;
+   font-family: "Touche Regular";
+   font-weight: 600;
+   font-size: 13px;
+}
+.btn:hover{
+    color: rgb(254, 150, 2);
+}
+#center{
+   display:flex; 
+   justify-content: center;
+} 
+
+#center-text{ 
+    text-align: center;
+    margin:15px auto 30px ;
+    font-family: "Touche Bold";
+    font-weight: bolder;
+}
+.space p{
+    display: inline-block;
+    padding-left: 5px;
+}
+.space {
+    margin-right: 25px;
+    color: gray;
+    font-size: 12px;
+
+}
+div i.space p {
+    font-size:12px;
+}
+
+#A{
+    /* margin-right: 10px; */
+    display: inline-block;
+    color: gray;
+    /* list-style: disc;
+    border: 2px black solid; */
+}
+.mr1{
+    margin: 1rem auto;
+    font-size: 14px !important;
+    font-family: "Touche Bold";
+    
+}
+.width33{
+    width: 30%;
+    margin: 1.25%;
+    float:left;
+}
+.width33 img{
+    width: 100%;
+    border-radius: 1%;
+    height: 100%;
+}
+.width33 img:hover{
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(133,126,133,1);
+-moz-box-shadow: 0px 0px 20px 0px rgba(133,126,133,1);
+box-shadow: 0px 0px 20px 0px rgba(133,126,133,1);
+}
+
+@media only screen and (max-width:600px){
+    .width33{
+        width: 100%;
+    }
+}
+
+ .width33 p{
+     font-family: "Touche Regular";
+ }
+ .font12{
+    font-family: "Touche Regular";
+    font-size: 13px;
+    color: rgb(85,85,85);
+ }
+
+
+

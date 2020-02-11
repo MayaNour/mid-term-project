@@ -1,0 +1,119 @@
+
+/** Gado part **/ 
+.responsive-gado {
+    margin: 1%;  
+      
+}
+.img-gado {
+    width:100%;
+    height:auto;
+  }
+.Description-gado h3 {
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+}
+.Description-gado h4 {
+    font-size: 15px ;
+    color: gray;
+    text-align: left;
+}
+#h1-gado {
+    text-align: center;
+    font-weight: bolder !important;
+    font-size: 30px !important;
+    width:40% !important;
+    border-bottom: 0px solid rgba(86, 91, 92) !important;
+    padding-bottom: 15px !important;
+    padding-top: 10px !important;
+    font-family: "Touche Bold";
+ 
+}
+.button-gado {
+    text-align: center;
+    color: white;
+    background-color: rgb(254,150,2) ;
+    font-size: 16px;
+    border: rgb(254,150,2);
+    padding: 10px 40px ;
+    margin-top: 30px;
+    border-radius: 4px;
+    /* margin-bottom: 80px; */
+}
+.Completed-gado {
+    color: rgb(254,150,2);
+    width: 175px;
+    height: 30px;
+    border: 1px solid rgb(254,150,2);
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.main-gado{
+    text-align: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-image: url("images/img12.jpg");
+    width: 100%;
+    font-family: "Touche Regular";
+    font-weight: 600;
+}
+h3 {
+    font-family: "Touche Bold";
+    margin-top: 10px;
+}
+h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 12px;
+}
+@media only screen and (max-width: 576px) {
+    
+    .button-gado {
+       font-size: 10px;
+       padding: 1em 2.6em ;
+      
+    }
+    .Completed-gado {
+        font-size: 10px;
+        width: 100px;
+        height: 20px;
+    }
+    #h1-gado {
+       font-weight: bolder !important;
+        font-size: 1.1em !important;
+        margin: 0 auto;
+       
+    }  
+    .main-gado{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }  
+       
+}
+@media only screen and (max-width: 1199px) and (min-width: 576px) {
+    
+    .button-gado {
+       font-size: 15px;
+       padding: 1em 2.6em ;
+      
+    }
+    .Completed-gado {
+        font-size: 12px;
+        width: 130px;
+        height: 25px;
+    }
+    #h1-gado {
+       font-weight: bolder !important;
+        font-size: 1.4em !important;
+        margin: 0 auto;
+       
+    }  
+    .main-gado{
+        text-align: center;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    }

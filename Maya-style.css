@@ -22,6 +22,9 @@
 #careers-section {
     background-size: 100%;
     height: 100vh;
+    content: "";
+    clear: both;
+    display: table;
  }
 
  /* container div contians three part: paragraph, form, video*/
@@ -114,6 +117,10 @@
     padding-left: 3%;
 }
 
+.user-icon{
+    background: url("images/iconfinder-icon.svg") right no-repeat;
+}
+
  /*------ the main section of project process steps --------*/
 #project-process{
     padding:auto; 
@@ -145,7 +152,7 @@
 /* the container of all client says section content */
 #client-says{
     background: url("images/testimonials.jpg");
-    background-size: 100% 100%; 
+    background-size: auto; 
     text-align: center;
     font-family: "Touche Regular";
 }
@@ -336,7 +343,11 @@
         display: none;
     }
 
-    #project-process{
+    /* #project-process{
         margin-top: 83%;
-    }
+    } */
+
+    /* .main-gado{
+        margin-top: 83%;
+    } */
 }
